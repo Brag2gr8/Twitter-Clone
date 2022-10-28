@@ -186,7 +186,7 @@ function getFeedHtml(){
             <img src="images/anonymous.png" class="profile-pic reply-pic">
             <input id="comment-${tweet.uuid}" class="reply" placeholder="Tweet your reply"/>
             </div>
-            <button data-comment=${tweet.uuid} >Reply</button>
+            <button data-comment=${tweet.uuid} id="reply" >Reply</button>
         </div>  
         <i class="fa-regular fa-trash-can" data-erase=${tweet.uuid}></i>          
     </div>
