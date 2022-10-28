@@ -89,6 +89,7 @@ button{
     width: 90%;
     border-radius: 9px;
     border: none;
+    padding: 5px;
 }
 
 #reply {
